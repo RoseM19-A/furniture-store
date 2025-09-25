@@ -14,13 +14,14 @@
 <body>
     <main id="HOME" class="">
         <!-- 1stsection -->
-        <div class="bg-[url(bg-1.jpg)] absolute bg-cover bg-center w-full h-screen brightness-50"></div>
-        <nav class="fixed top-0 p-5 flex z-5 justify-between w-[100%] mx-auto py-2 px-10 bg-black/50">
+        <div class=" bg-[url(bg-1.jpg)] absolute bg-cover bg-center lg:w-full md:w-full w-0 h-screen brightness-50">
+        </div>
+        <nav class="fixed top-0 p-5 flex z-5 justify-between lg:w-full md:full min-w-250 mx-auto py-2  bg-black/50">
             <div class="">
-                <img src="logo.png" class="w-10 ml-5 rounded-lg brightness-100 shadow-lg">
+                <img src="logo.png" class="w-20 ml-5 rounded-full bg-white brightness-100 shadow-lg">
             </div>
-            <div>
-                <ul class="text-gray-200 flex gap-3 font-bold px-10">
+            <div class="">
+                <ul class="text-gray-200 flex gap-2 font-bold px-10">
                     <a href="#HOME">
                         <li
                             class="rounded-full px-3 hover:cursor-pointer hover:bg-blue-300 transition duration-300 ease-in-out">
@@ -49,51 +50,58 @@
             </div>
         </nav>
         <div class="flex flex-col relative py-50">
-            <div class="text-8xl font-semibold text-center text-gray-100 mb-2">
+            <div class=" lg:w-full md:full min-w-240 text-8xl font-semibold text-center lg:text-gray-100 md:text-gray-100 text-black mb-2">
                 <h1 class="tracking-[0.2rem]">VINGGOY</h1>
             </div>
-            <div class="">
-                <p class="text-7xl font-semibold text-center text-gray-100 mb-10">FURNITURE/LUMBER DEALER</p>
+            <div class="lg:w-full md:full min-w-240">
+                <p class="text-7xl font-semibold text-center lg:text-gray-100 md:text-gray-100 text-black mb-10">
+                    FURNITURE/LUMBER DEALER</p>
             </div>
-            <div>
-                <p class="text-center text-2xl text-white mb-10">
+            <div class="lg:w-full md:full min-w-240">
+                <p class="text-center text-2xl lg:text-gray-100 md:text-gray-100 text-black mb-10">
                     Turn your house into a HOME with the right and modern design.</p>
                 <div class="flex justify-center py-10">
-                  <a href="#INFO">  <p
-                        class="text-center text-2xl font-thin border px-5 py-2 hover:font-normal hover:text-black cursor-pointer hover:bg-white text-gray-100 transition duration-500 ease-in-out">
-                        MORE INFO ↓</p></a>
+                    <a href="#INFO">
+                        <p
+                            class="text-center text-2xl font-thin border px-5 py-2 hover:font-normal hover:text-black cursor-pointer hover:bg-white lg:text-gray-100 md:text-gray-100 text-black transition duration-500 ease-in-out">
+                            MORE INFO ↓</p>
+                    </a>
                 </div>
             </div>
         </div>
+
         <div class="px-30 mt-30">
             <h1 class="text-blue-700 font-semibold tracking-widest">HIGHLIGHTED ITEMS</h1>
         </div>
-        <div id="INFO" class="row flex justify-center gap-5 mt-10">
-            <div class="">
-                <img src="cabenit1.jpg" class="w-65 h-60 brightness-100 cursor-pointer shadow-lg">
-                <p class="text-center font-semibold font-sans mt-2">Cabenit w/ mirror</p>
-            </div>
-            <div class="">
-                <img src="queen.jpg" class="w-65 h-60 brightness-100 cursor-pointer shadow-lg">
-                <p class="text-center font-semibold font-sans mt-2">Queen size Bed</p>
-            </div>
-            <div class="">
-                <img src="dining.jpg" class="w-65 h-60 brightness-100 cursor-pointer shadow-lg">
-                <p class="text-center font-semibold font-sans mt-2">Dining Table</p>
-            </div>
-            <div class="">
-                <img src="salset3.png" class="w-65 h-60 brightness-100 cursor-pointer shadow-lg">
-                <p class="text-center font-semibold font-sans mt-2">Living room Furniture set</p>
+        <div id="INFO" class="row flex justify-center lg:w-full md:full min-w-250">
+            <div class="grid lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 gap-3 mt-10">
+                <div class="">
+                    <img src="cabenit1.jpg" class="w-80 h-80 brightness-100 cursor-pointer shadow-lg">
+                    <p class="text-center font-semibold font-sans mt-2 text-2xl">Cabenit w/ mirror</p>
+                </div>
+                <div class="">
+                    <img src="queen.jpg" class="w-80 h-80 brightness-100 cursor-pointer shadow-lg">
+                    <p class="text-center font-semibold font-sans mt-2 text-2xl">Queen size Bed</p>
+                </div>
+                <div class="">
+                    <img src="dining.jpg" class="w-80 h-80 brightness-100 cursor-pointer shadow-lg">
+                    <p class="text-center font-semibold font-sans mt-2 text-2xl">Dining Table</p>
+                </div>
+                <div class="">
+                    <img src="salset3.png" class="w-80 h-80 brightness-100 cursor-pointer shadow-lg">
+                    <p class="text-center font-semibold font-sans mt-2 text-2xl">Living room Furniture set</p>
+                </div>
             </div>
         </div>
         <!-- 1stsection -->
         <!-- 2ndsection -->
-        <div id="SERVICES" class="px-30 py-20">
+        <div id="SERVICES" class="px-30 py-20 lg:w-full md:full min-w-240">
             <h1 class="text-blue-700 font-semibold tracking-widest">SERVICES</h1>
-            <img src="grid.png" alt="" class="absolute w-130 right-15 mt-10 opacity-50">
+            <img src="grid.png" alt="" class="absolute lg:block md:hidden hidden w-130 right-15 mt-10 opacity-50">
             <div class="">
                 <h1 class="text-4xl font-bold mt-5 ">Elevate your living with a Modern<br> Home design</h1>
-                <p class="text-lg font-thin mt-5 font-sans">Pick what you like in our services, When it's best for you.
+                <p class="text-lg font-semibold mt-5 font-sans">Pick what you like in our services, When it's best for
+                    you.
                 </p>
 
                 <div class="columns-4 py-10 flex justify-start gap-1">
@@ -126,18 +134,19 @@
                 </div>
             </div>
         </div>
+
         <!-- 2ndsection -->
         <!-- 3rdsection -->
         <div id="ABOUT" class="py-20">
             <div>
-                <h1 class="text-center text-4xl font-bold font-mono">About Us</h1>
+                <h1 class="text-center text-4xl font-bold font-mono lg:w-full md:full min-w-240">About Us</h1>
             </div>
-            <div class="row flex justify-between gap-2">
+            <div class="row flex justify-between gap-2 lg:w-full md:full min-w-240">
                 <div class="px-20">
                     <h1 class="text-blue-700 font-semibold tracking-widest">OUR DESIGNS</h1>
-                    <h1 class="text-4xl font-bold tracking-widest mt-5">Explore our <br> Furniture designs</h1>
+                    <h1 class="text-4xl font-bold tracking-widest mt-5 ">Explore our <br> Furniture designs</h1>
                 </div>
-                <div class="text-center mt-10">
+                <div class="lg:text-center mt-10">
                     <p class="text-xl font-thin">The right furniture makes every house a home,<br>
                         Style and comfort, crafted for you.</p>
                 </div>
@@ -149,30 +158,36 @@
                     </a>
                 </div>
             </div>
-            <div class="flex flex-row gap-2">
-                <img src="salaset1.jpg" class="w-170 h-90 px-5 ml-15 mt-5 brightness-100">
-                <div class="mr-15">
-                    <img src="4seater.jpg" class="w-155 h-90 mt-5 brightness-100 shadow-sm">
+            <div class="">
+                <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-3 lg:w-full md:full min-w-240">
+                    <div class="lg:mr-15 md:ml-10 lg:ml-0 ml-10">
+                        <img src="salaset1.jpg" class="w-150 h-90 mt-5 ml-10 brightness-100">
+                    </div>
+                    <div class="lg:mr-15 md:ml-10 lg:ml-0 ml-20">
+                        <img src="4seater.jpg" class="w-150 h-90 mt-5 brightness-100 shadow-sm">
+                    </div>
                 </div>
             </div>
-                <div class="py-20 px-20">
-                    <div>
-                        <h1 class="text-blue-700 font-semibold tracking-widest">BEST SELLING
-                            FURNISHES</h1>
-                        <h1 class="text-4xl font-bold mt-5 tracking-normal">Develop your vision & Define your
-                            style
-                        </h1>
-                        <p class="text-lg font-thin mt-5 font-sans">"Vinngoy Furnishes:Balancing form and
-                            function,<br> like flavors in perfect harmony."
-                        </p>
-                    </div>
-                    <div class=" flex justify-end">
-                       <a href="#GALLERY"> <h1
-                            class="text-center text-xl font-thin border px-5 hover:font-normal hover:text-black cursor-pointer hover:bg-white transition duration-500 ease-in-out">
-                            EXPLORE OUR GALLERY →</h1></a>
-                    </div>
+            <div class="py-20 px-20 lg:w-full md:full min-w-240">
+                <div>
+                    <h1 class="text-blue-700 font-semibold tracking-widest">BEST SELLING
+                        FURNISHES</h1>
+                    <h1 class="text-4xl font-bold mt-5 tracking-normal">Develop your vision & Define your
+                        style
+                    </h1>
+                    <p class="text-xl font-semibold mt-5 font-sans">"Vinngoy Furnishes:Balancing form and
+                        function,<br> like flavors in perfect harmony."
+                    </p>
                 </div>
-            <div id="GALLERY" class="py-20 mx-20">
+                <div class=" flex justify-end">
+                    <a href="#GALLERY">
+                        <h1
+                            class="text-center text-xl font-thin border px-5 hover:font-normal hover:text-black cursor-pointer hover:bg-white transition duration-500 ease-in-out">
+                            EXPLORE OUR GALLERY →</h1>
+                    </a>
+                </div>
+            </div>
+            <div id="GALLERY" class="py-20 mx-20 lg:w-full md:full min-w-240">
                 <div class="">
                     <h1 class="text-blue-700 font-semibold tracking-widest">OUR GALLERY
                     </h1>
@@ -181,30 +196,32 @@
                     <h1 class="text-black text-4xl font-bold mb-10 mt-5">Indoor Designs</h1>
                 </div>
                 <div class="flex flex-row gap-2 justify-center">
-                    <div class="group">
-                        <img src="dining1.png"
-                            class="w-100 h-60 shadow-lg brightness-100 cursor-pointer group-hover:opacity-80">
-                        <p class="text-center font-thin text-xl cursor-pointer">Top sellers Products</p>
-                    </div>
-                    <div class="group">
-                        <img src="cabenit2.png"
-                            class="w-100 h-60 shadow-lg brightness-100 cursor-pointer group-hover:opacity-80">
-                        <p class="text-center font-thin text-xl cursor-pointer">Top sellers Products</p>
-                    </div>
-                    <div class="group">
-                        <img src="door.png"
-                            class="w-100 h-60 shadow-lg brightness-100 cursor-pointer group-hover:opacity-80">
-                        <p class="text-center font-thin text-xl cursor-pointer">Top sellers Products</p>
-                    </div>
-                    <div class="group">
-                        <img src="doublebed.png"
-                            class="w-100 h-60 shadow-lg brightness-100 cursor-pointer group-hover:opacity-80">
-                        <p class="text-center font-thin text-xl cursor-pointer">Top sellers Products</p>
-                    </div>
-                    <div class="group">
-                        <img src="salaset2.png"
-                            class="w-100 h-60 shadow-lg brightness-100 cursor-pointer group-hover:opacity-80">
-                        <p class="text-center font-thin text-xl cursor-pointer">Top sellers Products</p>
+                    <div class="grid lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 gap-5 mt-10">
+                        <div class="group">
+                            <img src="dining1.png"
+                                class="w-100 h-90 shadow-lg brightness-100 cursor-pointer group-hover:opacity-80">
+                            <p class="text-center font-thin  cursor-pointer text-2xl">Top sellers Products</p>
+                        </div>
+                        <div class="group">
+                            <img src="cabenit2.png"
+                                class="w-100 h-90 shadow-lg brightness-100 cursor-pointer group-hover:opacity-80">
+                            <p class="text-center font-thin  cursor-pointer text-2xl">Top sellers Products</p>
+                        </div>
+                        <div class="group">
+                            <img src="door.png"
+                                class="w-100 h-90 shadow-lg brightness-100 cursor-pointer group-hover:opacity-80">
+                            <p class="text-center font-thin  cursor-pointer text-2xl">Top sellers Products</p>
+                        </div>
+                        <div class="group">
+                            <img src="doublebed.png"
+                                class="w-100 h-90 shadow-lg brightness-100 cursor-pointer group-hover:opacity-80">
+                            <p class="text-center font-thin cursor-pointer text-2xl">Top sellers Products</p>
+                        </div>
+                        <div class="group">
+                            <img src="salaset2.png"
+                                class="w-100 h-90 shadow-lg brightness-100 cursor-pointer group-hover:opacity-80">
+                            <p class="text-center font-thin cursor-pointer text-2xl">Top sellers Products</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -212,7 +229,7 @@
         <!-- 3rdsection -->
 
         <!-- 4rthsection -->
-        <div id="LOCATION" class="py-20">
+        <div id="LOCATION" class="py-20 lg:w-full md:full min-w-240">
             <div>
                 <h1 class="text-blue-700 font-semibold tracking-widest ml-20">LOCATION</h1>
             </div>
@@ -222,12 +239,12 @@
             <div class="flex justify-center">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.7365839781414!2d125.78962806569331!3d7.498897744702001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32feada59953cb3d%3A0x4b108f85f176fe5!2sprk.%20Namnama%20Ola%C3%B1o!5e0!3m2!1sen!2sph!4v1757990438216!5m2!1sen!2sph"
-                    width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <!-- 4rthsection -->
-        <div id="CONTACT">
+        <div id="CONTACT" class="lg:w-full md:full min-w-240">
             <h1 class="text-center font-semibold py-2 tracking-widest">YOUR DREAM DESIGN, WE MADE IT FOR YOU</h1>
             <h1 class="text-center mt-2 text-4xl font-thin">Contact us today to begin the journey<br> toward you've
                 always dreamed. </h1>
@@ -239,24 +256,25 @@
                 </a>
             </div>
         </div>
-        <footer class="bg-gray-200 text-black py-10">
+        <footer class="bg-gray-200 text-black py-10 lg:w-full md:full min-w-250">
             <div class="flex flex-row justify-center ">
                 <div class="flex flex-col">
-                <p class="text-black text-xl  font-mono font-bold">VINGGOY FURNITURE.</p>
-                <p class="text-black px-10 font-semibold">Click Me and you will recieve more inspirational news →</p>
+                    <p class="text-black text-xl  font-mono font-bold">VINGGOY FURNITURE.</p>
+                    <p class="text-black px-10 font-semibold">Click Me and you will recieve more inspirational news →
+                    </p>
                 </div>
                 <div class="flex shadow-xl py-10 px-2 w-80 justify-center">
                     <div class="">
-                    <p><i class="fa-solid fa-phone text-3xl text-black"></i></p>
-                </div>
+                        <p><i class="fa-solid fa-phone text-3xl text-black"></i></p>
+                    </div>
                     <h1 class="text-xl font-semibold text-black ">+6399109141392<br> <span
-                      class="font-bold text-sm text-cyan-300">Round-the-clock</span></h1>
+                            class="font-bold text-sm text-cyan-300">Round-the-clock</span></h1>
                 </div>
             </div>
             <div>
                 <hr>
             </div>
-            <div class="text-center font-thin tracking-widest" >
+            <div class="text-center font-thin tracking-widest">
                 V-furniture ©2025.All Rights Reserved
             </div>
         </footer>
